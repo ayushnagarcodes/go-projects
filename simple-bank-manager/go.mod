@@ -1,10 +1,10 @@
-module task
+module simple-bank-manager
 
-go 1.21.3
+go 1.21.6
 
 require (
 	gorm.io/driver/sqlite v1.5.4
-	gorm.io/gorm v1.25.5
+	gorm.io/gorm v1.25.6
 )
 
 require (

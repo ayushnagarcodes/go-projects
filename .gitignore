@@ -1,0 +1,20 @@
+# Compiled binary
+*.exe
+*.out
+*.app
+
+# Dependency directories
+/vendor/
+/go.sum
+
+# IDE and editor directories
+.idea/
+.vscode/
+
+# Exclude files in subdirectories
+**/*.exe
+**/*.out
+**/*.app
+**/vendor/
+**/go.sum
+**/main
