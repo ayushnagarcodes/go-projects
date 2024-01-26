@@ -10,12 +10,12 @@ It's a CLI application that can be used to track file changes. You can stage/tra
 **How to use:** check out the [usage instructions](./version-control-system/README.md).\
 **Project details:** click [here](https://hyperskill.org/projects/420).
 
-## Simple Bank Manager
+## Simple Banking System
 
-It's a simple credit card system that can generate valid credit card numbers by using Luhn algorithm. You can use the generated card and PIN to login and do transactions such as add money, transfer money to another card in the database, close account and log out. It uses GORM package in Go to interact with a SQLite database and store the card details and PIN. By building this project, I learned about models, CRUD operations, transactions and migrations in GORM.
+It's a credit card system that can generate valid card numbers by using Luhn algorithm. You can use the generated card and PIN to login and do transactions such as add money, transfer money to another card in the database, close account and log out. It uses GORM package in Go to interact with a SQLite database and store the card details and PIN. By building this project, I learned about models, CRUD operations, transactions and migrations in GORM.
 <br />
 
-**How to use:** check out the [usage instructions](./simple-bank-manager/README.md).\
+**How to use:** check out the [usage instructions](./simple-banking-system/README.md).\
 **Project details:** click [here](https://hyperskill.org/projects/413).
 
 ## Cinema Room Manager

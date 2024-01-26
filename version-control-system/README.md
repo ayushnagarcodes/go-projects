@@ -9,7 +9,7 @@
 ## Let's start:-
 
 To start using it, first of all build the binaries by executing `go build ./main.go` in the terminal. \
-Then, run the `main.go` file using command-line (for Linux - `./main` & for Windows - `./main.exe`) by passing one of the following arguments:-
+Then, run the binary file using command-line (for Linux - `./main` & for Windows - `./main.exe`) by passing one of the following arguments:-
 
 -   `config` : Gets the current username. `config example` : Sets the username to "example". The username is stored in `./vcs/config.txt`.
 -   `add filename.txt` : Stages "filename.txt" for tracking/versioning. The staged/tracked files are stored in `./vcs/index.txt`. You can also provide the path of the file, if it's not in the project directory.
@@ -24,7 +24,7 @@ Then, run the `main.go` file using command-line (for Linux - `./main` & for Wind
 ```
 
 ```
-./main add file1.txt
+./main add ./file1.txt
 ```
 
 ```

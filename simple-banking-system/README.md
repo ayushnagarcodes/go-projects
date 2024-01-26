@@ -1,4 +1,4 @@
-# Simple Bank Manager Setup
+# Simple Banking System Setup
 
 Make sure `go` and `sqlite` are installed. Run the following command in the terminal:
 
